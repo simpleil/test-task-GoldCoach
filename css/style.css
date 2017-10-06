@@ -1,0 +1,313 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-color: #ffffff;
+	font-family: "PT Sans";
+	font-weight: 400;
+}
+
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
+	height: auto;
+	position: relative;
+}
+
+header {
+	text-align: center;
+	margin-top: 40px;
+}
+header .container {
+	border-bottom: 1px solid black;
+}
+header h3 {
+	color: #18374b;
+	font-size: 26.5px;
+	font-family: "PT Sans";
+	font-weight: 400;
+	margin: 10px 0 26px;
+	padding-left: 23px;
+}
+
+.webinar .container {
+	padding-top: 50px;
+}
+.webinar .container .about {
+	text-align: center;
+}
+.webinar .container .about h2 {
+	font-size: 34px;
+	font-family: "Circe-Bold";
+	color: #ff621f;
+	margin-bottom: 49px;
+}
+.webinar .container .about p {
+	font-size: 30px;
+	color: #020001;
+	font-family: "Circe-Bold";
+	margin-bottom: 25px;
+}
+.webinar .container .about button {
+	padding: 22px 35px 22px 65px;
+	font-weight: 700;
+	background: #ff621f;
+	font-size: 28px;
+	border: none;
+	border-bottom: 6px solid #ff332a;
+	color: #ffffff;
+	cursor: pointer;
+	margin-bottom: 38px;
+}
+.webinar .container .details .speaker {
+	background: #ff621f;
+	width: 50%;
+	float: left;
+	padding: 39px 20px 150px 32px;
+	color: #eaeaea;
+}
+.webinar .container .details .speaker .webinarDate {
+	margin-bottom: 60px;
+	color: #ffffff;
+}
+.webinar .container .details .speaker .webinarDate .date {
+	width: 126px;
+	text-align: center;
+	float: left;
+}
+.webinar .container .details .speaker .webinarDate .date .month {
+	padding: 2px 0;
+	font-weight: 700;
+	font-size: 22px;
+	font-family: "PT Sans";
+	background: #2b2e35;
+}
+.webinar .container .details .speaker .webinarDate .date .number {
+	font-weight: 700;
+	font-size: 73.45px;
+	font-family: "PT Sans";
+	color: #c2c2c2;
+	background: #ffffff;
+}
+.webinar .details .speaker .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.webinar .container .details .speaker .webinarDate .fullDate {
+	padding-left: 33px;
+	float: left;
+}
+.webinar .container .details .speaker .webinarDate .fullDate .weekDay {
+	font-size: 30px;
+	text-transform: uppercase;
+	font-family: "Circe-Bold";
+}
+.webinar .container .details .speaker .webinarDate .fullDate .dateMonth {
+	font-size: 36px;
+	text-transform: uppercase;
+	font-family: "Circe-Bold";
+	border-bottom: 1px dashed #ffffff;
+}
+.webinar .container .details .speaker .webinarDate .fullDate .time {
+	font-size: 23px;
+	text-transform: uppercase;
+	font-family: "PT Sans";
+	font-weight: 400;
+	padding-top: 5px;
+}
+.webinar .container .details .speaker .aboutSpeaker .foto {
+	text-align: center;
+	font-family: "PT Sans";
+}
+.webinar .container .details .speaker .aboutSpeaker img {
+	border-radius: 50%;
+	border: 7px solid #ffffff;
+}
+.webinar .container .details .speaker .aboutSpeaker .foto p {
+	font-style: italic;
+	font-size: 22px;
+	font-family: "Georgia";
+	padding-top: 20px;
+}
+.webinar .container .details .speaker .aboutSpeaker .foto h3 {
+	font-size: 22px;
+	text-transform: uppercase;
+	font-weight: 700;
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+.webinar .container .details .speaker .aboutSpeaker ul {
+	padding-left: 30px;
+}
+.webinar .container .details .speaker .aboutSpeaker ul li {
+	padding-left: 10px;
+	padding-bottom: 25px;
+	font-size: 18px;
+	font-weight: 400;
+}
+.webinar .container .details .context {
+	background: #eaeaea;
+	width: 50%;
+	float: left;
+}
+.webinar .container .details .context {
+	color: #2b2e35;
+	font-family: "PT Sans";
+	padding: 39px 20px 15px 39px;
+}
+ .toStart {
+	text-align: center;
+}
+.webinar .container .details .context .info h3 {
+	font-size: 23.5px;
+	font-weight: 700px;
+	text-transform: uppercase;
+	padding-bottom: 70px;
+}
+.webinar .container .details .context .info ul {
+	padding-left: 10px;
+	list-style-image: url("../img/marker.png");
+}
+.webinar .container .details .context .info ul li {
+	font-size: 24px;
+	font-weight: 400;
+	padding-bottom: 35px;
+	padding-left: 5px;
+}
+.webinar .container .details .context .info ul li > span {
+	font-weight: 700;
+}
+.webinar .container .details .context .toStart h4 {
+	font-weight: 700;
+	font-size: 21px;
+	text-transform: uppercase;
+	padding-bottom: 17px;
+}
+.webinar .container .details .context .toStart .timeLeft .fullBlock {
+	display: inline-block;
+	font-family: "Circe-Bold";
+}
+.webinar .container .details .context .toStart .timeLeft .block {
+	background: #2b2e35;
+	color: #ffffff;
+	width: 67px;
+	font-size: 48px;
+	border-radius: 8px;
+}
+.webinar .container .details .context .toStart .timeLeft .fullBlock .title {
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #2b2e35;
+	padding-top: 14px;
+	margin-bottom: 39px;
+}
+.webinar .container .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.webinar .container .format {
+	margin-top: 50px;
+	margin-bottom: 40px;
+	text-align: center;
+	border-bottom: 1px dashed #7a7b7e;
+}
+.webinar .container .format p {
+	font-size: 24px;
+	font-family: "Georgia";
+	font-style: italic;
+	margin-bottom: 48px;
+}
+.webinar .container .format p > span {
+	font-size: 30px;
+}
+.webinar .container .format button {
+	color: #ffffff;
+	font-size: 36px;
+	font-weight: 700;
+	background: #ff621f;
+	border: none;
+	padding: 13px 40px 13px 43px;
+	cursor: pointer;
+}
+.webinar .container .format h4 {
+	color: #2b2e35;
+	font-size: 36px;
+	font-weight: 400;
+	margin-top: 23px;
+	padding-bottom: 30px;
+}
+.message  {
+	background: url('../img/BGG.jpg');
+	background-size: cover;
+	background-position: center center;
+}
+.message .container h4 {
+	text-align: center;
+	color: #2b2e35;
+	font-size: 34px;
+	font-weight: 700px;
+	margin-bottom: 5px;
+}
+
+.message .container p {
+	font-size: 24px;
+	margin-bottom: 20px;
+	color: #2b2e35;
+}
+.message .container p > span {
+	font-weight: 700;
+	font-size: 27px;
+}
+.message .container p > .busines {
+	font-weight: 400;
+}
+
+.message .container img {
+	border: 7px solid #ff621f;
+	width: 100%;
+	margin-top: -30px;
+}
+.message .container .order {
+	text-align: left;
+	color: #2b2e35;
+}
+.message .container .order h4 {
+	font-size: 36px;
+	font-weight: 400;
+	margin-bottom: 70px;
+	margin-top: 20px;
+	text-align: left;
+}
+.message .container .order h5 {
+	font-size: 30px;
+	font-weight: 700;
+	margin-bottom: 95px;
+}
+
+footer {
+	margin-top: 20px;
+	color: #2b2e35;
+}
+footer .container button {
+	background: #ff621f;
+	color: #ffffff;
+	font-size: 47px;
+	font-weight: 700;
+	padding: 25px 70px;
+	border: none;
+	border-bottom: 7px solid #ff332a;
+	margin-bottom: 45px;
+	cursor: pointer;
+}
+footer .container .social {
+	text-align: center;
+	padding-bottom: 50px;
+}
+
