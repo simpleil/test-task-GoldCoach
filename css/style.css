@@ -253,7 +253,7 @@ header h3 {
 	color: #2b2e35;
 	font-size: 34px;
 	font-weight: 700px;
-	margin-bottom: 5px;
+	margin-bottom: 30px;
 }
 
 .message .container p {
@@ -311,3 +311,52 @@ footer .container .social {
 	padding-bottom: 50px;
 }
 
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	.container {
+		width: 90%;
+	}
+	.webinar .container .details {
+		background: #ff621f;
+	}
+}
+
+@media only screen and (min-width: 360px) and (max-width: 991px) {
+	.container {
+		width: 90%;
+	}
+	.webinar .container .about p {
+		font-size: 30px;
+		padding-right: 150px;
+		padding-left: 150px; 
+	
+	}
+	.webinar .container .details {
+		display: flex;
+   	flex-direction: column;
+	}
+	.webinar .container .details > .speaker {order: 2; } 
+	.webinar .container .details > .context {order: 1; }
+	.webinar .container .details .speaker, .webinar .container .details .context {
+		width: 100%;
+	} 
+	.webinar .container .details .speaker .webinarDate {
+		padding-left: 30%;
+	}
+	.webinar .container .details .speaker {
+		padding-left: 80px;
+		padding-right: 80px;
+	}
+	.webinar .container .details .context {
+		padding-left: 80px;
+		padding-right: 80px;
+	}
+	.webinar .container .details .context .info ul li {
+		font-size: 24px;
+		font-weight: 400;
+		padding-bottom: 35px;
+		padding-left: 10px;
+	}
+	.message .container img {
+		margin-top: 30px;
+	}
+}
