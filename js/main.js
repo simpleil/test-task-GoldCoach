@@ -30,6 +30,6 @@
     document.getElementById("hours").innerHTML = hours;
     document.getElementById("minutes").innerHTML = minutes;
     document.getElementById("seconds").innerHTML = seconds;
-    setTimeout(startTimer, 1);
+    setTimeout(startTimer, 1000);
   }
 startTimer();
